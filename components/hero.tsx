@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Hero() {
   return (
-    <section className="w-full py-12 md:py-24 bg-[#051131] text-white">
+    <section className="w-full py-12 md:py-24 bg-gradient-to-t from-[#03217F] via-[#051131] to-[#051131] text-white">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center text-center space-y-4 md:space-y-8">
           <motion.div
@@ -43,11 +43,12 @@ export default function Hero() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Button className="bg-white text-[#051131] w-[192px] h-[5px] rounded-[12px] hover:bg-white/90 px-8 py-6 text-base">Get Started Now</Button>
+            <Button className="bg-white text-[#051131] w-[192px] h-[5px] rounded-[12px] hover:bg-white/90 px-8 py-6 text-base">
+              Get Started Now
+            </Button>
           </motion.div>
         </div>
       </div>
     </section>
   )
 }
-
