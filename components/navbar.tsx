@@ -65,7 +65,7 @@ export default function Navbar() {
       {/* Mobile Navigation */}
       <div
         className={cn(
-          "fixed inset-0 top-16 z-50 grid h-[calc(100vh-4rem)] grid-flow-row auto-rows-max overflow-auto p-6 pb-32 shadow-md animate-in md:hidden bg-[#051131]",
+          "fixed inset-0 mt-5 top-16 z-50 grid h-[calc(100vh-4rem)] grid-flow-row auto-rows-max overflow-auto p-6 pb-32 shadow-md animate-in md:hidden bg-[#051131]",
           isMenuOpen ? "slide-in-from-top-80" : "hidden",
         )}
       >
@@ -106,7 +106,7 @@ export default function Navbar() {
             Custom Models
           </Link>
           <div className="flex flex-col gap-4 mt-4">
-            <Button variant="outline" className="w-[88px] text-[14px] text-white border-white/20 hover:bg-white/10">
+            <Button variant="outline" className="w-[88px] text-[14px] text-white bg-[#04142B] border-white hover:bg-white/10">
               Login
             </Button>
             <Button className="w-[128px] bg-white text-[#051131] hover:bg-white/90">Get Started Now</Button>
